@@ -1,0 +1,134 @@
+
+/*****************/
+/* GENERAL STYLES */
+/*****************/
+
+h1 {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 30px;
+  color: black;
+}
+
+body {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 14px;
+  color: black;
+}
+
+#picsize {
+  height:330px;
+  width:640px ;
+}
+
+#title {
+  text-align: left;
+  position: absolute;
+  margin-left:15px;
+  z-index: 1000;
+  top: 10px;
+  left: 50px;
+  width: 20%;
+  background-color: #FFF;
+}
+
+#my-map {
+  position: fixed;
+  position: absolute;
+  margin-bottom: 200px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/*****************/
+/* ICON   STYLES */
+/*****************/
+
+#about{
+  text-align: right;
+  color: #9ACD32;
+  cursor:pointer;
+  bottom: 20px;
+}
+
+#about:hover {
+  cursor: pointer;
+}
+
+#time{
+  text-align: right;
+  color: #9ACD32;
+  cursor:pointer;
+  bottom: 20px;
+}
+
+#time:hover {
+  cursor: pointer;
+}
+
+#locateuser {
+  text-align: right;
+  color: #9ACD32;
+  cursor:pointer;
+  bottom: 20px;
+}
+
+#locateuser:hover {
+  cursor: pointer;
+}
+
+.leaflet-control-locate a{font-size:1.4em;color:#444;cursor:pointer}
+.leaflet-control-locate.active a{color:#9ACD32}
+.leaflet-control-locate.active.following a{color:#FC8428}
+
+.fly-to-user {
+  font-family: monospace;
+  text-align: left;
+  width:80%;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #9ACD32;
+  color: #9ACD32;
+  padding: 10px 10px;
+}
+
+.fly-to-user:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+/*****************/
+/* LEGEND STYLES */
+/*****************/
+
+#maincontainer {
+    position: fixed;
+    position: absolute;
+    height: 200px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+#legendtype {
+  text-align: left;
+  position: absolute;
+  z-index: 1000;
+  bottom: 10px;
+  left: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+#legenddays {
+  text-align: left;
+  position: absolute;
+  z-index: 1000;
+  bottom: 10px;
+  left: 50px;
+  margin: 0;
+  padding: 0;
+}
